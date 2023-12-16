@@ -1,0 +1,1 @@
+document.querySelectorAll(".set__image-wrap").forEach(((e,a)=>{let m=a+1;document.querySelector(`.set__image-wrap_${m}`).innerHTML=`<img class="set__image set__image_${m}" src="images/examples/${m}.jpg" alt="Image ${m}">`}));
